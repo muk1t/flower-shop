@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-container{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 60vh;
+   background-color: rgba(229, 84, 115, 0.10);
+   
+}
+.header-container-discription{
+    margin-left: 10%;
+}
+.header-heading{
+    font-size: 50px;
+    font-weight: 800;
+    font-style: normal;
+    font-family: lato;
+}
+.header-paragraph{
+   padding-top: 25px;
+   font-size: 18px;
+   font-weight: 500;
+   color: rgba(119, 115, 115, 0.864);
+}
+.header-btn{
+   color: white;
+   margin-top: 25px;
+   padding: 15px 35px ;
+   background-color: #E55473;
+   border-radius: 8px;
+   border: none;
+}
+.header-img{
+   padding-top: 37px;
+   margin-right: 7%;
+   height: 56vh;
+}
+.feature-section{
+    text-align: center;
+    margin-top: 100px;
+}
+.feature-heading{
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.feature-paragraph{
+    font-weight: 500;
+    color: rgba(159, 156, 156, 0.875);
+}
+.feature-all-img{
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:20px 10%;
+}
+.flower-description{
+    height: 390px;
+    width: 350px;
+    background-color: aqua;
+    border-radius: 300px 300px 0 0;
+}
+.feature-img{
+    height: 310px;
+    padding-top: 80px;
+}
+.img-name{
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+.support-section{
+    width: 80%;
+    height: 200px;
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+    gap: 75px;
+} 
+.support-section-container{
+    text-align: center;
+}
+.support-section-logo{
+    height: 60px;
+    width: 60px;
+}
+.support-section-driscription{
+    font-size: 17px;
+}
+.deal-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    width: 100%;
+    height: 45vh;
+    background-color: rgba(229, 84, 115, 0.05);
+    border-radius: 8px;
+}
+.deal-section-ciontainer{
+   text-align: center;
+}
+.deal-section-heading{
+    font-size: 25px;
+}
+.deal-section-paragraph{
+
+}
+.deal-section-btn{
+    height: 45px;
+    width: 120px;
+    font-size: 13px;
+    border-radius: 8px;
+    border: none;
+    background-color: #E55473;
+}
+.deal-section-img{
+    height: 270px;
+}
