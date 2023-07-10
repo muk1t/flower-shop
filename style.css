@@ -102,6 +102,7 @@
     height: 45vh;
     background-color: rgba(229, 84, 115, 0.05);
     border-radius: 8px;
+    margin-bottom: 6%;
 }
 .deal-section-ciontainer{
    text-align: center;
@@ -118,8 +119,68 @@
     font-size: 13px;
     border-radius: 8px;
     border: none;
+    color: white;
     background-color: #E55473;
 }
 .deal-section-img{
     height: 270px;
+}
+.link-section{
+   text-align: center;
+}
+.link-section-all-img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+}
+.link-section-img{
+    width: 230px;
+    margin-bottom: 7%;
+}
+.input-heading-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aqua;
+    height: 350px;
+    width: 77%;
+    margin-left: 11.5%;
+    border-radius: 8px;
+    background-image: url('./flower-asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 7%;
+}
+.input-section{
+    width: 525px;
+    height: 45px;
+    border: none;
+    margin-left: 140px;
+    padding-left: 20px;
+    border-radius: 8px;
+    margin-right: 7px;
+}
+.footer-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    height: 320px;
+    color: white;
+    background-color: black;
+}
+.footer-heading{
+    margin-top: 10px;
+    font-size: 48px;
+    font-weight: 800;
+}
+.flower-color{
+    color: #E55473;
+}
+.footer-paragraph{
+  color: rgba(255, 255, 255, 0.40)
 }
