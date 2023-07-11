@@ -98,6 +98,7 @@
    background-color: #E55473;
    border-radius: 8px;
    border: none;
+   cursor: pointer;
 }
 
 
@@ -117,18 +118,21 @@
     margin:20px 10%;
 }
 .flower-description-1{
+    cursor: pointer;
     height: 390px;
     width: 350px;
     border-radius: 300px 300px 0 0;
     background-color: rgba(167, 33, 98, 0.15);
 }
 .flower-description-2{
+    cursor: pointer;
     height: 390px;
     width: 350px;
     border-radius: 300px 300px 0 0;
     background-color: rgba(5, 151, 160, 0.15);
 }
 .flower-description-3{
+    cursor: pointer;
     height: 390px;
     width: 350px;
     border-radius: 300px 300px 0 0;
@@ -182,6 +186,7 @@
     text-align: center;
 }
 .support-section-logo{
+    cursor: pointer;
     height: 60px;
     width: 60px;
 }
@@ -198,10 +203,7 @@
 
 
 .flower-collection{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    text-align: center;
     gap: 20px;
     height: 500px;
 } 
@@ -211,6 +213,14 @@
    align-items: center;
    gap: 25px;
    margin-bottom: 90px;
+
+}
+.flower-collection-heading{
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal;
+    color: #272727;
+    padding-bottom: 45px;
 }
 .flower-img{
     cursor: pointer;
@@ -246,6 +256,13 @@
 .deal-section-color{
     color: #E55473;
 }
+.sale-up{
+    cursor: pointer;
+}
+.sale-up:hover{
+   font-size: 50px;
+   color: #E55473;
+}
 .deal-section-img{
     height: 270px;
 }
@@ -263,14 +280,18 @@
    justify-content: center;
    align-items: center;
    gap: 15px;
+   height:410px ;
 }
 .link-section-img{
+    cursor: pointer;
     width: 230px;
     margin-bottom: 7%;
     border-radius: 8px;
     box-shadow: 4px 8px 8px 4px gray;;
 }
-
+.link-section-img:hover{
+    width: 290px;
+}
 
 
 /* this is main input-heading-section */
@@ -337,6 +358,7 @@
     font-weight: 400;
 }
 .footer-paragraph-2{
+    cursor: pointer;
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
