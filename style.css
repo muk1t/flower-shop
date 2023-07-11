@@ -1,55 +1,51 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Lato;
 }
 .header-container{
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   height: 60vh;
-   background-color: rgba(229, 84, 115, 0.10);
-   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+    background-color: rgba(229, 84, 115, 0.10);
+ }
+.header-heading{
+    font-size: 60px;
+    font-weight: 800;
+    font-style: normal;
 }
 .header-container-discription{
     margin-left: 10%;
-}
-.header-heading{
-    font-size: 50px;
-    font-weight: 800;
-    font-style: normal;
-    font-family: lato;
-}
-.header-paragraph{
-   padding-top: 25px;
-   font-size: 18px;
-   font-weight: 500;
-   color: rgba(119, 115, 115, 0.864);
-}
-.header-btn{
-   color: white;
-   margin-top: 25px;
-   padding: 15px 35px ;
-   background-color: #E55473;
-   border-radius: 8px;
-   border: none;
 }
 .header-img{
    padding-top: 37px;
    margin-right: 7%;
    height: 56vh;
 }
+.all-section-heading{
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal;
+    color: #272727;
+}
+.all-header-paragraph{
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-size: 16px;
+   font-weight: 500;
+   color: rgba(39, 39, 39, 0.60);
+}
+.all-header-btn{
+   color: white;
+   padding: 15px 35px ;
+   background-color: #E55473;
+   border-radius: 8px;
+   border: none;
+}
 .feature-section{
     text-align: center;
     margin-top: 100px;
-}
-.feature-heading{
-    font-size: 30px;
-    font-weight: 800;
-    padding-bottom: 20px;
-}
-.feature-paragraph{
-    font-weight: 500;
-    color: rgba(159, 156, 156, 0.875);
 }
 .feature-all-img{
     gap: 20px;
@@ -58,19 +54,50 @@
     align-items: center;
     margin:20px 10%;
 }
-.flower-description{
+.flower-description-1{
     height: 390px;
     width: 350px;
-    background-color: aqua;
     border-radius: 300px 300px 0 0;
+    background-color: rgba(167, 33, 98, 0.15);
 }
-.feature-img{
+.flower-description-2{
+    height: 390px;
+    width: 350px;
+    border-radius: 300px 300px 0 0;
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.flower-description-3{
+    height: 390px;
+    width: 350px;
+    border-radius: 300px 300px 0 0;
+    background-color: rgba(71, 125, 17, 0.15);
+}
+.feature-img-1{
     height: 310px;
     padding-top: 80px;
 }
-.img-name{
+.feature-img-2{
+    height: 270px;
+    padding-top: 80px;
+}
+.feature-img-3{
+    height: 310px;
+    padding-top: 80px;
+}
+.img-name-1{
     padding-top: 20px;
     margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    color: #272727;
+}
+.img-name-2{
+    padding-top: 60px;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    color: #272727;
 }
 .support-section{
     width: 80%;
@@ -91,7 +118,10 @@
     width: 60px;
 }
 .support-section-driscription{
-    font-size: 17px;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    color: rgba(39, 39, 39, 0.80);
 }
 .deal-section{
     display: flex;
@@ -107,26 +137,14 @@
 .deal-section-ciontainer{
    text-align: center;
 }
-.deal-section-heading{
-    font-size: 25px;
-}
-.deal-section-paragraph{
-
-}
-.deal-section-btn{
-    height: 45px;
-    width: 120px;
-    font-size: 13px;
-    border-radius: 8px;
-    border: none;
-    color: white;
-    background-color: #E55473;
+.deal-section-color{
+    color: #E55473;
 }
 .deal-section-img{
     height: 270px;
 }
 .link-section{
-   text-align: center;
+    text-align: center;
 }
 .link-section-all-img{
    display: flex;
@@ -143,7 +161,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: aqua;
     height: 350px;
     width: 77%;
     margin-left: 11.5%;
@@ -161,6 +178,10 @@
     padding-left: 20px;
     border-radius: 8px;
     margin-right: 7px;
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+    color: rgba(39, 39, 39, 0.60);
 }
 .footer-container{
     text-align: center;
@@ -170,17 +191,28 @@
     flex-direction: column;
     gap: 25px;
     height: 320px;
-    color: white;
-    background-color: black;
+    color: rgba(255, 255, 255, 0.90);
+    background-color: #111010;
 }
 .footer-heading{
     margin-top: 10px;
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 800;
-}
-.flower-color{
+    font-style: normal;
     color: #E55473;
 }
-.footer-paragraph{
-  color: rgba(255, 255, 255, 0.40)
+.flower-color{
+    color: #ffffff;
+}
+.footer-paragraph-1{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.footer-paragraph-2{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.40)
 }
